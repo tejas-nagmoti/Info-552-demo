@@ -1,0 +1,209 @@
+/* Variables */
+$black: #000000;
+$white: #ffffff;
+$darkgreen: #2B4030;
+$green: #6D8B74;
+$lightgreen: #BFD9C5;
+$darkpurple: #402527;
+$purple: #8C6D70;
+$cream: #EFEAD8;
+$gray: #D0C9C0;
+$lightgray: #DEDEDE;
+
+/* Mixins */
+@mixin font-sizing {
+  html {
+    font-size: 100%;
+  }
+}
+
+/* Normalize CSS */
+@include normalize-css;
+
+/* Base Styles */
+body {
+  background-color: $lightgray;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* Header Styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $green;
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 80% auto;
+  grid-template-areas: "logo burger" "nav nav";
+
+  h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: $darkgreen;
+    font-size: 36px;
+    letter-spacing: 2px;
+    padding: 120px 24px;
+    border: 8px solid $darkgreen;
+    background-color: $lightgreen;
+  }
+
+  #logo {
+    display: flex;
+    align-items: center;
+  }
+
+  #burger-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    button {
+      border: none;
+      background-color: transparent;
+      color: $white;
+      font-size: 1.25rem;
+      cursor: pointer;
+    }
+  }
+
+  nav {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    display: none;
+
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      li {
+        margin-left: 16px;
+      }
+
+      a {
+        padding: 16px 12px;
+        border: 1px solid $white;
+        color: $white;
+        border-radius: 24px;
+        transition: 0.25s;
+
+        &:hover,
+        &:active {
+          background-color: $lightgreen;
+          color: $darkgreen;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1024px) {
+    nav {
+      display: block;
+    }
+  }
+}
+
+/* Main Content Grid */
+#main-content-grid {
+  padding-top: 84px;
+  display: grid;
+  grid-template-columns: 65% auto;
+  gap: 16px;
+
+  #main-content-right {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    background-color: $purple;
+    color: $darkpurple;
+    text-align: center;
+    padding: 24px;
+
+    #profile-pic {
+      background-image: url("../img/profile.jpeg");
+      background-size: cover;
+      background-position: center;
+      width: 200px;
+      height: 200px;
+      border-radius: 100%;
+      margin: 0 auto;
+    }
+
+    h2 {
+      padding: 8px 0;
+      font-family: "Open Sans", sans-serif;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+
+      li {
+        margin: 0 16px;
+        font-size: 1.75rem;
+        list-style: none;
+
+        a {
+          color: $darkpurple;
+          &:hover,
+          &:active {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Index Section Styles */
+#index-left {
+  padding: 16px;
+
+  h1 {
+    padding: 120px 24px;
+    border: 8px solid $darkgreen;
+    background-color: $lightgreen;
+    color: $darkgreen;
+  }
+
+  h2 {
+    padding: 16px 0 8px 0;
+  }
+
+  p {
+    padding-bottom: 8px;
+  }
+
+  ul li {
+    margin-left: 32px;
+  }
+
+  #home-me-grid {
+    border: 8px solid $green;
+    margin: 24px 0;
+    padding: 24px 16px;
+    display: grid;
+    grid-template-columns: 30% auto;
+    text-align: left;
+
+    #profile-pic {
+      margin: 0 auto;
+    }
+  }
+
+  #projects {
+    border: 8px solid $lightgreen;
+    margin: 24px 0;
+    padding: 24px 16
