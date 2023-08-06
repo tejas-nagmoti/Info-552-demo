@@ -5,9 +5,9 @@ body, h1, h2, p, ul, li {
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arapey', sans-serif;
   line-height: 1.6;
-  background-color: #f0f0f0;
+  background-color: #ebe1e1c0;
   color: #333;
 }
 
@@ -64,16 +64,16 @@ h1 {
 
 img {
   display: block;
-  max-width: 200px; /* Adjust the width as per your preference */
-  max-height: 200px; /* Adjust the height as per your preference */
+  max-width: 800px; /* Adjust the width as per your preference */
+  max-height: 1100px; /* Adjust the height as per your preference */
   width: auto;
   height: auto;
   margin: 0 auto;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #f0f0f0; /* Add a background color to the image box */
-  padding: 20px; /* Add some padding for spacing */
-  border: 2px solid #007bff; /* Add a border around the image */
+  padding: 10px; /* Add some padding for spacing */
+  border: 8px solid #007bff; /* Add a border around the image */
 }
 
 blockquote {
@@ -89,17 +89,17 @@ p {
 
 /* Colored grid boxes for the purpose statement and professional philosophy statement */
 #purpose-statement {
-  background-color: #007bff;
+  background-color: #749ec9bc;
   color: #fff;
   padding: 20px;
-  border: 2px solid #fff; /* Add a border around the purpose statement */
+  border: 8px solid #fff; /* Add a border around the purpose statement */
 }
 
 #philosophy-statement {
-  background-color: #29aa47;
+  background-color: #83d697b8;
   color: #fff;
   padding: 20px;
-  border: 2px solid #fff; /* Add a border around the philosophy statement */
+  border: 8px solid #fff; /* Add a border around the philosophy statement */
 }
 /* Footer */
 footer {
