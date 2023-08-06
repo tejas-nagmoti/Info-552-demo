@@ -13,14 +13,10 @@ body {
 
 /* Header and Navigation */
 header {
-  position: fixed;
-  width: auto;
-  height: auto;
   background-color: #145DA0;
   color: #fff;
   padding: 20px;
   text-align: center;
-  z-index: 100;
 }
 
 nav {
