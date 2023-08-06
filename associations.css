@@ -77,6 +77,7 @@ section {
     padding: 20px;
     border: 8px solid #B1D4E0; /* Add a border around the association section */
     margin: 20px 0;
+    background-color: #fff;
 }
 
 /* Styling for association links */
