@@ -59,8 +59,8 @@ h1 {
 
 img {
   display: block;
-  max-width: 200px; /* Adjust the width as per your preference */
-  max-height: 200px; /* Adjust the height as per your preference */
+  max-width: 380px;/* Adjust the width as per your preference */
+  max-height: 380px; /* Adjust the height as per your preference */
   width: auto;
   height: auto;
   margin: 0 auto;
