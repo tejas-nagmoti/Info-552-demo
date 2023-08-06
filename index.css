@@ -93,6 +93,7 @@ p {
   color: #fff;
   padding: 20px;
   border: 8px solid #fff; /* Add a border around the purpose statement */
+  margin: 20px 0;
 }
 
 #philosophy-statement {
@@ -100,6 +101,7 @@ p {
   color: #fff;
   padding: 20px;
   border: 8px solid #fff; /* Add a border around the philosophy statement */
+  margin: 20px 0;
 }
 /* Footer */
 footer {
