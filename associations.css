@@ -1,0 +1,110 @@
+/* Reset some default styles to ensure consistent rendering across browsers */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arapey', sans-serif;
+    line-height: 1.6;
+    background-color: #b9b9c67a;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #145DA0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0; /* Remove default padding from the ul element */
+}
+
+nav li {
+    margin: 0 15px; /* Add margin between navigation items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Change the text color to white */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #6c7278ab;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center; /* Center align the text */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+/* Styling for the association sections */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 8px solid #B1D4E0; /* Add a border around the association section */
+    margin: 20px 0;
+}
+
+/* Styling for association links */
+section a {
+    color: #145DA0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0C2D48;
+    color: #fff;
+}
+
+/* Responsive Design - Adjust as needed */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    nav li {
+        margin: 0 10px; /* Adjust the navigation items' margin for smaller screens */
+    }
+}
