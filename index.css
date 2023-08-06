@@ -112,10 +112,15 @@ p {
 
 /* Footer */
 footer {
+ 
   text-align: center;
   padding: 10px;
   background-color: #0C2D48;
   color: #fff;
+  img {
+    width: 10px,
+    height: 10px
+  }
 }
 
 /* Responsive Design - Adjust as needed */
