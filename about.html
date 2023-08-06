@@ -38,12 +38,32 @@
         <li>Visual Design</li>
       </ul>
       <h2>Location:</h2>
-      <p>Philadelphia, PA, USA.</p>
+      <div id="map"></div> <!-- Add a div to hold the map -->
     </section>
   </main>
   
   <footer>
     <p>&copy; 2023 Tejas Milind Nagmoti. All rights reserved.</p>
   </footer>
+
+  <!-- Add Google Maps API script -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" async defer></script>
+  <script>
+    // Initialize and display the map
+    function initMap() {
+      var mapDiv = document.getElementById('map');
+      var map = new google.maps.Map(mapDiv, {
+        center: {lat: YOUR_LATITUDE, lng: YOUR_LONGITUDE}, // Replace with the desired location coordinates
+        zoom: 15 // Adjust the zoom level as needed
+      });
+
+      // Add a marker at the desired location
+      var marker = new google.maps.Marker({
+        position: {lat: YOUR_LATITUDE, lng: YOUR_LONGITUDE}, // Replace with the desired location coordinates
+        map: map,
+        title: 'Tejas Milind Nagmoti'
+      });
+    }
+  </script>
 </body>
 </html>
