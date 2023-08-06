@@ -1,4 +1,4 @@
-/* Reset some default styles to ensure consistent rendering across browsers */
+
 body, h1, h2, p, ul, li, a {
     margin: 0;
     padding: 0;
@@ -30,7 +30,7 @@ nav ul {
 }
 
 nav li {
-    margin: 0 15px; /* Add margin between navigation items */
+    margin: 0 15px; 
 }
 
 nav a {
@@ -77,13 +77,13 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Contact Information Grid */
+
 section {
     display: grid;
     grid-template-columns: max-content auto;
     grid-row-gap: 10px;
     padding: 20px;
-    border: 8px solid #B1D4E0; /* Add a border around the contact information section */
+    border: 8px solid #B1D4E0; 
     margin: 20px 0;
     background-color: #f7f7f7;
 }
@@ -107,6 +107,6 @@ footer {
     }
 
     nav li {
-        margin: 0 10px; /* Adjust the navigation items' margin for smaller screens */
+        margin: 0 10px; 
     }
 }
