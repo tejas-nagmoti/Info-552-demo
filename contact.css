@@ -2,98 +2,111 @@
 body, h1, h2, p, ul, li, a {
     margin: 0;
     padding: 0;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Arapey', sans-serif;
     line-height: 1.6;
     background-color: #b9b9c67a;
     color: #333;
-  }
-  
-  /* Header and Navigation */
-  header {
+}
+
+/* Header and Navigation */
+header {
     background-color: #145DA0;
     color: #fff;
     padding: 20px;
     text-align: center;
-  }
-  
-  nav {
+}
+
+nav {
     margin-top: 20px;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-  }
-  
-  nav li {
+}
+
+nav li {
     margin: 0 15px; /* Add margin between navigation items */
-  }
-  
-  nav a {
+}
+
+nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
     transition: color 0.3s ease;
-  }
-  
-  nav a:hover {
+}
+
+nav a:hover {
     color: #6c7278ab;
-  }
-  
-  /* Main Content */
-  main {
-    min-height: 71vh; 
-    
+}
+
+/* Main Content */
+main {
+    min-height: 71vh;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 36px;
     margin-bottom: 20px;
     text-align: center;
-  }
-  
-  h2 {
+}
+
+h2 {
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  p {
+}
+
+p {
     margin-bottom: 20px;
-  }
-  
-  a {
+}
+
+a {
     color: #145DA0;
     text-decoration: none;
     font-weight: bold;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  }
-  
-  /* Footer */
-  footer {
+}
+
+/* Contact Information Grid */
+section {
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-row-gap: 10px;
+    padding: 20px;
+    border: 8px solid #B1D4E0; /* Add a border around the contact information section */
+    margin: 20px 0;
+    background-color: #f7f7f7;
+}
+
+section h2 {
+    grid-column: 1 / -1;
+}
+
+/* Footer */
+footer {
     text-align: center;
     padding: 10px;
     background-color: #0C2D48;
     color: #fff;
-  }
-  
-  /* Responsive Design - Adjust as needed */
-  @media only screen and (max-width: 600px) {
+}
+
+/* Responsive Design - Adjust as needed */
+@media only screen and (max-width: 600px) {
     h1 {
-      font-size: 28px;
+        font-size: 28px;
     }
-  
+
     nav li {
-      margin: 0 10px; /* Adjust the navigation items' margin for smaller screens */
+        margin: 0 10px; /* Adjust the navigation items' margin for smaller screens */
     }
-  }
-  
+}
