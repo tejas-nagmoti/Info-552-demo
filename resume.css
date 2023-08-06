@@ -1,0 +1,120 @@
+/* Reset some default styles to ensure consistent rendering across browsers */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arapey', sans-serif;
+    line-height: 1.6;
+    background-color: #b9b9c67a;
+    color: #333;
+  }
+  
+  /* Header and Navigation */
+  header {
+    background-color: #145DA0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 15px; /* Add margin between navigation items */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #6c7278ab;
+  }
+  
+  /* Main Content */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the resume sections */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for the summary section */
+  section:nth-of-type(1) {
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  /* Styling for the education section */
+  section:nth-of-type(2) {
+    background-color: #e9e9e9;
+    padding: 20px;
+  }
+  
+  /* Styling for the projects section */
+  section:nth-of-type(3) {
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  /* Styling for the certificates section */
+  section:nth-of-type(4) {
+    background-color: #e9e9e9;
+    padding: 20px;
+  }
+  
+  /* Styling for the work experience section */
+  section:nth-of-type(5) {
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  /* Styling for the languages and design software sections */
+  section:nth-of-type(6), section:nth-of-type(7) {
+    background-color: #e9e9e9;
+    padding: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0C2D48;
+    color: #fff;
+  }
+  
