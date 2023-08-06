@@ -86,7 +86,6 @@ p {
   margin-bottom: 20px;
 }
 
-/* Colored grid boxes for the purpose statement and professional philosophy statement */
 #purpose-statement {
   background-color: #B1D4E0;
   color: #fff;
@@ -106,16 +105,17 @@ p {
   border: 8px solid #fff; /* Add a border around the philosophy statement */
   margin: 20px 0;
 }
+
+#philosophy-statement h2 { /* Add a rule for the heading within the philosophy statement */
+  font-weight: bold;
+}
+
 /* Footer */
 footer {
   text-align: center;
   padding: 10px;
   background-color: #0C2D48;
   color: #fff;
-}
-
-#philosophy-statement h2 { /* Add a rule for the heading within the philosophy statement */
-  font-weight: bold;
 }
 
 /* Responsive Design - Adjust as needed */
