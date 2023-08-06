@@ -1,0 +1,101 @@
+/* Reset some default styles to ensure consistent rendering across browsers */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arapey', sans-serif;
+    line-height: 1.6;
+    background-color: #b9b9c67a;
+    color: #333;
+  }
+  
+  /* Header and Navigation */
+  header {
+    background-color: #145DA0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 15px; /* Add margin between navigation items */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #6c7278ab;
+  }
+  
+  /* Main Content */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0C2D48;
+    color: #fff;
+  }
+  
+  /* Responsive Design - Adjust as needed */
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 28px;
+    }
+  
+    nav li {
+      margin: 0 10px; /* Adjust the navigation items' margin for smaller screens */
+    }
+  
+    ul {
+      margin-left: 20px; /* Adjust the left margin for unordered lists on smaller screens */
+    }
+  }
+  
