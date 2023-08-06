@@ -65,7 +65,7 @@ h1 {
 
 img {
   display: block;
-  max-width: 100%; /* Adjust the width to fit within the container */
+  max-width: 85%; /* Adjust the width to fit within the container */
   height: auto; /* Remove max-height to maintain image proportions */
   margin: 0 auto;
   /* border-radius: 50%; */
