@@ -51,7 +51,7 @@ main {
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 40px;
   justify-items: center; /* Center the items horizontally */
 }
 
@@ -73,7 +73,7 @@ img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #f0f0f0; /* Add a background color to the image box */
   padding: 10px; /* Add some padding for spacing */
-  border: 8px solid #007bff; /* Add a border around the image */
+  border: 8px solid #145DA0 /* Add a border around the image */
 }
 
 blockquote {
