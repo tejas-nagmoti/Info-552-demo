@@ -72,6 +72,9 @@ body, h1, h2, p, ul, li {
   /* Styling for the resume sections */
   section {
     margin-bottom: 30px;
+    padding: 20px;
+    border: 8px solid #B1D4E0; /* Add a border around the purpose statement */
+    margin: 10px 0;
   }
   
   /* Styling for the summary section */

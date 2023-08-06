@@ -3,11 +3,7 @@ body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
   }
-  #map {
-    height: 100%;
-  }
   
-
   body {
     font-family: 'Arapey', sans-serif;
     line-height: 1.6;
@@ -57,27 +53,36 @@ body, h1, h2, p, ul, li {
   
   h1 {
     font-size: 36px;
-    margin-bottom: 20px;
-    text-align: center;
+    margin-bottom: 10px;
   }
   
   h2 {
     font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: bold; /* Make the section headings bold */
+  }
+  
+  p {
     margin-bottom: 10px;
   }
   
   ul {
-    list-style-type: disc;
-    margin-left: 30px;
-    margin-bottom: 20px;
-  }
-  
-  li {
     margin-bottom: 10px;
   }
   
-  p {
-    margin-bottom: 20px;
+  /* Styling for the resume sections */
+  section {
+    margin-bottom: 30px;
+    background-color: #f7f7f7; /* Apply a common background color to sections */
+    padding: 20px;
+    border: 8px solid #fff; /* Add a border around the sections */
+  }
+  
+  /* Grid for the personal info, services, and location */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
   }
   
   /* Footer */
@@ -92,14 +97,6 @@ body, h1, h2, p, ul, li {
   @media only screen and (max-width: 600px) {
     h1 {
       font-size: 28px;
-    }
-  
-    nav li {
-      margin: 0 10px; /* Adjust the navigation items' margin for smaller screens */
-    }
-  
-    ul {
-      margin-left: 20px; /* Adjust the left margin for unordered lists on smaller screens */
     }
   }
   

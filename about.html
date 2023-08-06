@@ -23,41 +23,33 @@
   <main>
     <section>
       <h1>About Tejas Milind Nagmoti</h1>
-      <h2>Personal Information:</h2>
-      <ul>
-        <li>Name: Tejas Milind Nagmoti</li>
-        <li>Age: 22 years young</li>
-        <li>Brief "about me" information (personal interests, hobbies, etc.): I'm a UX Designer. I like to look at things from a different perspective. Currently, I am pursuing my masters from Drexel University in Human Computer Interaction and User Experience. Working on apps to make their User Experience better is my new obsession. My favorite flavor of ice cream is Coffee-Walnut. What's yours?</li>
-      </ul>
-      <h2>Services:</h2>
-      <ul>
-        <li>User journey mapping</li>
-        <li>User testing</li>
-        <li>Prototyping</li>
-        <li>Website Design</li>
-        <li>Visual Design</li>
-      </ul>
-      <h2>Location:</h2>
-      <p>Philadelphia, PA, USA.</p>
-      <head>
-        <title>Add Map</title>
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    
-        <link rel="stylesheet" type="text/css" href="./style.css" />
-        <script type="module" src="./index.js"></script>
-      </head>
-      <body>
-        <h3>My Google Maps Demo</h3>
-        <!--The div element for the map -->
-        <div id="map"></div>
-    
-        <!-- prettier-ignore -->
-        <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
-            ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "beta"});</script>
-      </body>
+      <div class="grid-container">
+        <div class="personal-info">
+          <h2>Personal Information:</h2>
+          <ul>
+            <li>Name: Tejas Milind Nagmoti</li>
+            <li>Age: 22 years young</li>
+            <li>Brief "about me" information (personal interests, hobbies, etc.): I'm a UX Designer. I like to look at things from a different perspective. Currently, I am pursuing my masters from Drexel University in Human Computer Interaction and User Experience. Working on apps to make their User Experience better is my new obsession. My favorite flavor of ice cream is Coffee-Walnut. What's yours?</li>
+          </ul>
+        </div>
+        <div class="services">
+          <h2>Services:</h2>
+          <ul>
+            <li>User journey mapping</li>
+            <li>User testing</li>
+            <li>Prototyping</li>
+            <li>Website Design</li>
+            <li>Visual Design</li>
+          </ul>
+        </div>
+        <div class="location">
+          <h2>Location:</h2>
+          <p><a href="https://goo.gl/maps/VTwmjYhFZWTnGepi8">Philadelphia, PA, USA.</a></p>
+        </div>
+      </div>
     </section>
   </main>
-  
+
   <footer>
     <p>&copy; 2023 Tejas Milind Nagmoti. All rights reserved.</p>
   </footer>
