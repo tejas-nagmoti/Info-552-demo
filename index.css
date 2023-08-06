@@ -13,7 +13,7 @@ body {
 
 /* Header and Navigation */
 header {
-  background-color: #007bff;
+  background-color: #145DA0;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -64,7 +64,7 @@ h1 {
 
 img {
   display: block;
-  max-width: 800px; /* Adjust the width as per your preference */
+  max-width: 500px; /* Adjust the width as per your preference */
   max-height: 1100px; /* Adjust the height as per your preference */
   width: auto;
   height: auto;
@@ -105,7 +105,7 @@ p {
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #0C2D48;
   color: #fff;
 }
 
