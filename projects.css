@@ -1,5 +1,5 @@
 /* Reset some default styles to ensure consistent rendering across browsers */
-body, h1, h2, p, ul, li, a {
+body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
@@ -27,6 +27,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    padding: 0; /* Remove default padding from the ul element */
 }
 
 nav li {
@@ -99,4 +100,15 @@ footer {
     padding: 10px;
     background-color: #0C2D48;
     color: #fff;
+}
+
+/* Responsive Design - Adjust as needed */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    nav li {
+        margin: 0 10px; /* Adjust the navigation items' margin for smaller screens */
+    }
 }
