@@ -1,4 +1,5 @@
 /* Reset some default styles to ensure consistent rendering across browsers */
+
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
@@ -72,17 +73,10 @@ body, h1, h2, p, ul, li {
   
   /* Styling for the resume sections */
   section {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     background-color: #f7f7f7; /* Apply a common background color to sections */
     padding: 20px;
-    border: 8px solid #fff; /* Add a border around the sections */
-  }
-  
-  /* Grid for the personal info, services, and location */
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    border: 8px solid #B1D4E0; /* Add a border around the sections */
   }
   
   /* Footer */
@@ -99,4 +93,4 @@ body, h1, h2, p, ul, li {
       font-size: 28px;
     }
   }
-  
+ 
